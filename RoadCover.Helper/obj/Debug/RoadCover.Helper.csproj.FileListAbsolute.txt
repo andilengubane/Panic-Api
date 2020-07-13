@@ -1,0 +1,8 @@
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.Helper\bin\Debug\RoadCover.Helper.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.Helper\bin\Debug\RoadCover.Helper.pdb
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.Helper\bin\Debug\MySql.Data.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.Helper\bin\Debug\Utils.Logger.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.Helper\obj\Debug\RoadCover.Helper.csproj.CoreCompileInputs.cache
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.Helper\obj\Debug\RoadCover.Helper.csproj.CopyComplete
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.Helper\obj\Debug\RoadCover.Helper.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.Helper\obj\Debug\RoadCover.Helper.pdb

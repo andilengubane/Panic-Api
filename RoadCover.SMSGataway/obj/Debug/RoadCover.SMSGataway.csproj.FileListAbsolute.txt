@@ -1,0 +1,26 @@
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.SMSGataway.dll.config
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.SMSGataway.dll
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.SMSGataway.pdb
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.BusinessLogic.dll
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\Utils.Logger.dll
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.Helper.dll
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\MySql.Data.dll
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.BusinessLogic.pdb
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.Helper.pdb
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\obj\Debug\RoadCover.SMSGataway.csprojAssemblyReference.cache
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\obj\Debug\RoadCover.SMSGataway.csproj.CoreCompileInputs.cache
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\obj\Debug\RoadCover.SMSGataway.csproj.CopyComplete
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\obj\Debug\RoadCover.SMSGataway.dll
+C:\App\Development\C# Projects\RoadCover.GenerateToken\RoadCover.SMSGataway\obj\Debug\RoadCover.SMSGataway.pdb
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.SMSGataway.dll.config
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.SMSGataway.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.SMSGataway.pdb
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.BusinessLogic.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.Helper.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\MySql.Data.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.BusinessLogic.pdb
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.SMSGataway\bin\Debug\RoadCover.Helper.pdb
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.SMSGataway\obj\Debug\RoadCover.SMSGataway.csprojAssemblyReference.cache
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.SMSGataway\obj\Debug\RoadCover.SMSGataway.csproj.CopyComplete
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.SMSGataway\obj\Debug\RoadCover.SMSGataway.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.SMSGataway\obj\Debug\RoadCover.SMSGataway.pdb

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSmsReceipts">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSmsReceiptsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSmsReceiptsResult" type="tns:ArrayOfSmsReceipt" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfSmsReceipt">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SmsReceipt" nillable="true" type="tns:SmsReceipt" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SmsReceipt">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SmsReceiptID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reference" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DateDelivered" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="SmsReceiptDownloadID" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSmsReceiptsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSmsReceipts" />
+  </wsdl:message>
+  <wsdl:message name="GetSmsReceiptsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSmsReceiptsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="downloaderSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSmsReceipts">
+      <wsdl:input message="tns:GetSmsReceiptsSoapIn" />
+      <wsdl:output message="tns:GetSmsReceiptsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="downloaderSoap" type="tns:downloaderSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSmsReceipts">
+      <soap:operation soapAction="http://tempuri.org/GetSmsReceipts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="downloaderSoap12" type="tns:downloaderSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSmsReceipts">
+      <soap12:operation soapAction="http://tempuri.org/GetSmsReceipts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="downloader">
+    <wsdl:port name="downloaderSoap" binding="tns:downloaderSoap">
+      <soap:address location="https://bps-htmlgateway.bytes.co.za/smsReceipt/downloader.asmx" />
+    </wsdl:port>
+    <wsdl:port name="downloaderSoap12" binding="tns:downloaderSoap12">
+      <soap12:address location="https://bps-htmlgateway.bytes.co.za/smsReceipt/downloader.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

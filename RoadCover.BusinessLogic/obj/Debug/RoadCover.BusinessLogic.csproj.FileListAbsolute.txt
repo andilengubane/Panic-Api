@@ -1,0 +1,11 @@
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.BusinessLogic\bin\Debug\RoadCover.BusinessLogic.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.BusinessLogic\bin\Debug\RoadCover.BusinessLogic.pdb
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.BusinessLogic\bin\Debug\RoadCover.Helper.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.BusinessLogic\bin\Debug\Utils.Logger.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.BusinessLogic\bin\Debug\MySql.Data.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.BusinessLogic\bin\Debug\RoadCover.Helper.pdb
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.BusinessLogic\obj\Debug\RoadCover.BusinessLogic.csprojAssemblyReference.cache
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.BusinessLogic\obj\Debug\RoadCover.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.BusinessLogic\obj\Debug\RoadCover.BusinessLogic.csproj.CopyComplete
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.BusinessLogic\obj\Debug\RoadCover.BusinessLogic.dll
+C:\App\Development\_application\Applications\RoadCover.GenerateToken\RoadCover.BusinessLogic\obj\Debug\RoadCover.BusinessLogic.pdb
